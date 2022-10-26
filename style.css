@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alata', 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  background-image: url(./images/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  font-size: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  margin: 40px 10%;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li {
+  padding-left: 30px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+header p {
+  color: hsl(0, 0%, 100%);
+  font-size: 4rem;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+fieldset {
+  margin: 40px 10%;
+  padding: 20px 90px 20px 20px;
+  object-fit: fill;
+  display: inline-block;
+  margin-top: 6rem;
+}
+
+.top {
+  margin: 15% 7% 5% 10%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  background-color: hsl(0, 0%, 100%);
+  left: 52%;
+  bottom: 0;
+  padding: 60px 40px 0 60px;
+}
+
+.top p {
+  line-height: 1.8;
+}
+
+.top h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+.down {
+  margin: 8% 10% ;
+
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+button {
+  background-color: #fff;
+  border: 2px solid hsl(0, 0%, 55%);
+  padding: 5px 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 6% 10%;
+  gap: 10px;
+  /* position: relative; */
+}
+
+

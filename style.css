@@ -107,6 +107,7 @@ button {
 }
 
 .grid-container {
+  
   display: grid;
   grid-template-columns: auto auto auto auto;
   margin: 6% 10%;
@@ -114,7 +115,18 @@ button {
 }
 
 .item {
-  
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  display: block;
+  color: #fff;
+  font-weight: 0;
+  padding: 25px;
+  text-transform: uppercase;
 }
 
 

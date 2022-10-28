@@ -92,6 +92,11 @@ fieldset {
   letter-spacing: 5px;
 }
 
+.creation .big {
+  font-size: 36px;
+  font-weight: normal;
+}
+
 button {
   background-color: #fff;
   border: 2px solid hsl(0, 0%, 55%);
@@ -106,6 +111,10 @@ button {
   grid-template-columns: auto auto auto auto;
   margin: 6% 10%;
   gap: 10px;
+}
+
+.item {
+  
 }
 
 

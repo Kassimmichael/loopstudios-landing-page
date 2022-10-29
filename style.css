@@ -33,6 +33,10 @@ nav ul li {
   cursor: pointer;
 }
 
+nav li:hover {
+  transform: scale(0.9);
+}
+
 .logo {
   cursor: pointer;
 }
@@ -71,6 +75,7 @@ fieldset {
 
 .top p {
   line-height: 1.8;
+  color: hsl(0, 0%, 41%);
 }
 
 .top h1 {
@@ -113,6 +118,15 @@ button {
   gap: 20px;
 }
 
+.grid-container img {
+  transition: .2s ease-in-out;
+}
+
+.grid-container img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .item {
   position: relative;
 }
@@ -131,11 +145,16 @@ button {
 footer {
   background-color: black;
   color: #fff;
-  padding: 40px 6rem;
+  padding: 40px 10%;
 }
 
 footer img {
-  /* width: 50%; */
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+footer img:hover {
+  transform: scale(.9);
 }
 
 .up {
@@ -155,13 +174,16 @@ footer img {
 
 .bottom ul {
   display: flex;
-  /* justify-content: space-between; */
   list-style: none;
-
 }
 
 .bottom li {
   padding: 0 30px 0 0;
+  cursor: pointer;
+}
+
+.rights {
+  color: hsl(0, 0%, 55%);
 }
 
 

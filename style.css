@@ -187,4 +187,55 @@ footer img:hover {
   color: hsl(0, 0%, 55%);
 }
 
+.menu i {
+  background-color: white;
+  color: black;
+  width: 50%;
+}
+
+@media screen and (min-width: 400px){
+  .menu {
+    display: none;
+  }
+
+  /* body {
+    display: none;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    width: 50%;
+  }
+
+  .menu img {
+    cursor: pointer;
+  }
+
+  nav {
+    padding-top: 50px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  body {
+    background-image: url(./images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+  }
+
+  fieldset {
+    padding: 25px 15px;
+    /* display: inline-block; */
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  fieldset p {
+    font-size: 35px;
+  }
+
+}
+
 

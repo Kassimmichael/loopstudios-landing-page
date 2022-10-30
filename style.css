@@ -148,6 +148,7 @@ footer {
   background-color: black;
   color: #fff;
   padding: 40px 10%;
+  margin-top: 150px;
 }
 
 footer img {
@@ -197,10 +198,6 @@ footer img:hover {
   .menu {
     display: none;
   }
-
-  /* body {
-    display: none;
-  } */
 }
 
 @media screen and (max-width: 400px) {
